@@ -2,9 +2,8 @@ class Palavra{
   String palavra;
   int numeroDeLetra;
 
-  Palavra (String palavra, int tamanho){
-    this.palavra = palavra;
-    this.numeroDeLetra = tamanho;
+  Palavra (String frase){
+    this.palavra = frase;
   }
 
   String getPalavra(){
